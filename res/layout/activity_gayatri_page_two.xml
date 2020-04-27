@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gayatriPageTwo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GayatriPageTwo"
+
+    android:background="@android:color/holo_orange_light"><![CDATA[
+
+    "
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.219" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/gayatriTwo"
+        android:layout_width="303dp"
+        android:layout_height="465dp"
+        android:layout_marginTop="10dp"
+        android:text="
+भय हारिणी, भवतारिणी,
+                                                    अनघेअज आनन्द राशि।
+                                                            अविकारी, अखहरी, अविचलित,
+                                                            अमले, अविनाशी॥
+                                                        कामधेनु सतचित आनन्द,
+                                                जय गंगा गीता।
+                                                            सविता की शाश्वती,
+                                                            शक्ति तुम सावित्री सीता॥
+                                                                        ॥ जयति जय गायत्री माता...॥
+
+
+
+                                ऋग, यजु साम, अथर्व प्रणयनी,
+                                            प्रणव महामहिमे।
+                                कुण्डलिनी सहस्त्र सुषुमन,
+                                                            शोभा गुण गरिमे॥
+                                                                        ॥ जयति जय गायत्री माता..."
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/ripple_demo"
+        android:text="next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gayatriTwo"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:text="back"
+        app:layout_constraintBaseline_toBaselineOf="@+id/next"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/ripple_demo"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

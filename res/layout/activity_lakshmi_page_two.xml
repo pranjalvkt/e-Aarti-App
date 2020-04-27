@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LakshmiPageTwo"
+    android:background="@android:color/holo_orange_light">
+
+    <TextView
+        android:id="@+id/lakshmiTwo"
+        android:layout_width="310dp"
+        android:layout_height="501dp"
+        android:layout_marginTop="10dp"
+        android:text="तुम ही पाताल निवासनी,
+                                तुम ही शुभदाता ।
+
+
+                            कर्म-प्रभाव-प्रकाशनी,
+                                                भव निधि की त्राता ॥
+
+
+
+                                                        ॥ॐ जय लक्ष्मी माता...॥
+                         जिस घर तुम रहती हो,
+                        ताँहि में हैं सद्‍गुण आता ।
+
+
+                                                        सब सभंव हो जाता,
+                                                        मन नहीं घबराता ॥
+
+                                                        ॥ॐ जय लक्ष्मी माता...॥
+
+
+
+
+                                            तुम बिन यज्ञ ना होता,
+                                            वस्त्र न कोई पाता ।
+
+
+                                                        खान पान का वैभव,
+                                                        सब तुमसे आता ॥
+
+
+                                                        ॥ॐ जय लक्ष्मी माता...॥"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/ripple_demo"
+        android:text="next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lakshmiTwo"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:text="back"
+        app:layout_constraintBaseline_toBaselineOf="@+id/next"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/ripple_demo"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

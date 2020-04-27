@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shiv"
+    android:background="@android:color/holo_orange_light">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="311dp"
+        android:layout_height="481dp"
+        android:layout_marginTop="10dp"
+        android:text="जय शिव ओंकारा,
+                                            ॐ जय शिव ओंकारा ।
+                                                    ब्रह्मा विष्णु सदा शिव,
+                                                                        अर्द्धांगी धारा ॥
+                                                            ॐ जय शिव...॥
+
+
+                            एकानन चतुरानन,
+                                                        पंचानन राजे ।
+                                                        हंसानन गरुड़ासन,
+                                                                                    वृषवाहन साजे ॥
+                                                                    ॐ जय शिव...॥
+
+                                    दो भुज चार चतुर्भुज,
+                                                                                दस भुज अति सोहे।
+                                                                    त्रिगुण रूपनिरखता,
+                                                                                                                त्रिभुवन जन मोहे ॥
+                                                                                ॐ जय शिव...॥"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/ripple_demo"
+        android:text="next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:text="back"
+        app:layout_constraintBaseline_toBaselineOf="@+id/next"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/ripple_demo"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

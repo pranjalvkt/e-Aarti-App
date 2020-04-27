@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:background="@android:color/darker_gray">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="316dp"
+        android:layout_height="489dp"
+        android:fontFamily="sans-serif-smallcaps"
+
+        android:text="Salient Features of e Aarti App
+                                                                Offline App. No Internet connection needed!
+                                                                                                                Professionally designed
+                                                                                                                                                            User-Friendly
+
+
+
+                                                                                                                                                Disclaimer:
+                                                                                            1. This app is a self-contained offline app with a part of the contents from public domain.
+                                                                                                                    2. The purpose of app is to provide entertainment/general information to user.
+                                                                                                                                    All the images/audio and text contained in the app are collected from different internet sources. All the images/audio are readily available in various places on the internet and are believed to be in the public domain. However, we do not claim ownership/copyright of material/media used in the app. We acknowledge that the respective copyright owners of the contents own the rights. If you own the right to any content in the app, please write to us at pranjalvktripathi@gmail.com with the copyright details of the original source, and the stated content will be removed immediately. No infringement intended."
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359" />
+</androidx.constraintlayout.widget.ConstraintLayout>

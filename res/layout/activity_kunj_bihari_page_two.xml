@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KunjBihariPageTwo"
+    android:background="@android:color/holo_orange_light">
+
+    <TextView
+        android:id="@+id/kunjBihariPageTwo"
+        android:layout_width="294dp"
+        android:layout_height="501dp"
+        android:layout_marginTop="10dp"
+        android:text="ललित छवि श्यामा प्यारी की,
+                                                        श्री गिरिधर कृष्ण मुरारी की ॥
+                        ॥ आरती कुंजबिहारी की...॥
+                                                        कनकमय मोर मुकुट बिलसै,
+                देवता दरसन को तरसैं ।
+                                            गगन सों सुमन रासि बरसै ।
+                                                    बजे मुरचंग,
+                                        मधुर मिरदंग,
+                                        ग्वालिन संग,
+                                    अतुल रति गोप कुमारी की,
+                                श्री गिरिधर कृष्णमुरारी की ॥
+                                        ॥ आरती कुंजबिहारी की...॥"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="21sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/ripple_demo"
+        android:text="next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kunjBihariPageTwo"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:text="back"
+        app:layout_constraintBaseline_toBaselineOf="@+id/next"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/ripple_demo"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

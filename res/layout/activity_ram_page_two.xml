@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RamPageTwo"
+    android:background="@android:color/holo_orange_light">
+
+    <TextView
+        android:id="@+id/ramPageTwo"
+        android:layout_width="326dp"
+        android:layout_height="470dp"
+        android:layout_marginTop="10dp"
+        android:text="इति वदति तुलसीदास
+                            शंकर-शेष-मुनि-मन-रंजनम् ।
+                                                                    मम् हृदय कुंज निवास
+                             कुरु कामादी खल दल गंजनम् ॥5॥
+
+                                                        मनु जाहिं राचेऊ
+                                    मिलिहि सो बरु सहज सुंदर सांवरों ।
+                                                            करुना निधान सुजान
+                                                सिलु सनेहु जानत रावरो ॥6॥
+
+                            एही भांती गौरी असीस सुनि सिय
+                             सहित हिय हरषी अली ।
+                                            तुलसी भवानी पूजि पूनि पूनि
+                                             मुदित मन मंदिर चली ॥7॥
+
+                                            दोहा- जानि गौरी अनुकूल सिय
+                                            हिय हरषु न जाइ कहि ।
+                                            मंजुल मंगल मूल बाम अंग फरकन लगे ॥"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/ripple_demo"
+        android:text="home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ramPageTwo"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:text="back"
+        app:layout_constraintBaseline_toBaselineOf="@+id/home"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/ripple_demo"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
