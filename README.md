@@ -26,4 +26,7 @@ the respective copyright owners of the contents own the rights. If you own the r
 in the app, please write to me at pranjalvkt.srmcem.com with the copyright details of the original source, 
 and the stated content will be removed immediately. No infringement intended.<br>
 
-![Overview](screenshot/home page.jpeg)
+![Overview](/screenshot/home page.jpeg)
+![Overview](/screenshot/aarti 1.jpeg)
+
+
