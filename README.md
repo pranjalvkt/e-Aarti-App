@@ -5,7 +5,7 @@ Offline App. No Internet connection needed!<br>
 Professionally designed<br>
 User-Friendly<br>
 
-Contains the following Aartis<br>
+Contains the following Aartis-<br>
 श्री गणेश जी की आरती - Shri Ganesh Ji Ki Aarti<br>
 श्री दुर्गा जी की आरती - Shri Durga Ji Ki Aarti<br>
 श्री लक्ष्मी जी की आरती - Shri Laxmi Ji Ki Aarti<br>
