@@ -25,8 +25,3 @@ However, I do not claim ownership/copyright of material/media used in the app. I
 the respective copyright owners of the contents own the rights. If you own the right to any content 
 in the app, please write to me at pranjalvkt.srmcem.com with the copyright details of the original source, 
 and the stated content will be removed immediately. No infringement intended.<br>
-
-![Overview](/screenshot/home page.jpeg)
-![Overview](/screenshot/aarti 1.jpeg)
-
-
